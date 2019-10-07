@@ -1,0 +1,197 @@
+html, body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.headerBackground {
+  background-color: #8A8A8A;
+}
+
+.headerPart .sloganCntainer {
+  background: #8A8A8A;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.headerPart .textBackground {
+  background-color: #333333;
+  display: inline-block;
+  margin: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+  line-height: 2em;
+}
+
+.navbar {
+  padding-left: 20%;
+  padding-right: 30%;
+}
+
+.navbar .navButtonsItem {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar .navButtonsItemActive {
+  background-color: #00A99D;
+}
+
+.navbar .fas {
+  color: #00A99D;
+}
+
+.navbar .collapse {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 1400px) {
+  .navbar {
+    padding-left: 10%;
+    padding-right: 2%;
+  }
+}
+
+.offer .panelContentHeader {
+  margin-top: 2em;
+}
+
+.offer .jumbotron {
+  background-color: #F9F9F9;
+}
+
+.offer .btn-success {
+  background-color: #00A99D;
+}
+
+.offer .aKey {
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.tablets .media {
+  margin-top: 2.5em;
+  margin-left: 25%;
+}
+
+@media (max-width: 1400px) {
+  .tablets .media {
+    margin-left: 7%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tablets .media {
+    margin-top: 1.2em;
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .tablets .media {
+    margin-top: 1.2em;
+    margin-left: 10%;
+  }
+}
+
+.featuresList {
+  background-color: #F9F9F9;
+}
+
+.featuresList .row {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.featuresList .row .media {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.featuresList .aLuggage {
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .featuresList .row {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .featuresList .row {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.skils .charts {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.skils .chartMarginBottom {
+  margin-bottom: 2.5em;
+}
+
+@media (max-width: 767.98px) {
+  .skils .charts {
+    width: 100%;
+  }
+}
+
+.samples .aSample {
+  height: 15em;
+  background-color: #8A8A8A;
+}
+
+.samples .aSampleActive {
+  background-color: #00A99D;
+}
+
+.samples .aSmallGap {
+  padding: 0.1em 0.1em 0.1em 0.1em;
+}
+
+.samples .aCustomButton {
+  margin-top: 2em;
+  background-color: #00A99D;
+}
+
+.samples .col-12 {
+  padding: 0;
+}
+
+.customMargin {
+  margin-top: 5em;
+}
+
+.customMarginBottom {
+  margin-bottom: 5em;
+}
+
+.customIcon {
+  margin-bottom: 5px;
+}
+
+.customIconBullets {
+  margin-bottom: 10px;
+}
+
+.coloredText {
+  color: #00A99D !important;
+}
+
+.darBacground {
+  background-color: #383838;
+}
+/*# sourceMappingURL=style.css.map */
