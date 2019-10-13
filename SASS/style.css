@@ -127,11 +127,20 @@ html, body {
   line-height: 2em;
 }
 
+.headerPart .startDoing {
+  margin-top: 2em;
+}
+
 .navbar .navButtonsItem {
   font-size: 0.9em;
   font-weight: bold;
-  color: #000;
+  color: #606060 !important;
   margin-right: 1em;
+}
+
+.navbar .navButtonsItem:hover {
+  background-color: #00A99D !important;
+  color: white !important;
 }
 
 .navbar .navButtonsItemActive {
@@ -812,14 +821,16 @@ html, body {
 }
 
 .unique .btn-success {
-  font-size: 0.9rem;
-  padding: 0.7rem 1rem;
+  font-size: 0.85em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.7em 1em;
   background-color: #00A99D;
   border-color: #00A99D;
 }
 
 .unique .btn-success .icon {
-  margin-left: 0.5rem;
+  margin-left: 0.5em;
 }
 
 .links .customMargin {
@@ -840,6 +851,101 @@ html, body {
   background-color: #00A99D !important;
   border-color: #00A99D !important;
   color: white !important;
+}
+
+.map .container-fluid {
+  padding: 0;
+  position: relative;
+}
+
+.map .contact {
+  width: 22em;
+  position: absolute;
+  top: 30px;
+  margin-left: 25%;
+}
+
+.map form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1.5rem;
+  border: 1px solid #afaeae;
+}
+
+.map form input, .map form textarea, .map form input::-webkit-input-placeholder, .map form textarea::-webkit-input-placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.map form input, .map form textarea, .map form input:-ms-input-placeholder, .map form textarea:-ms-input-placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.map form input, .map form textarea, .map form input::-ms-input-placeholder, .map form textarea::-ms-input-placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.map form input, .map form textarea, .map form input::placeholder, .map form textarea::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.map form input, .map form input::-webkit-input-placeholder {
+  padding: 1.5rem 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.map form input, .map form input:-ms-input-placeholder {
+  padding: 1.5rem 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.map form input, .map form input::-ms-input-placeholder {
+  padding: 1.5rem 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.map form input, .map form input::placeholder {
+  padding: 1.5rem 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.map form .btn {
+  background-color: #00A99D !important;
+  border-color: #00A99D !important;
+  color: white !important;
+}
+
+.map form .btn:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+  color: white !important;
+}
+
+.map iframe {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 767.98px) {
+  .map .contact {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+footer .container-fluid {
+  background: #383838;
+  height: 10em;
+}
+
+footer p {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
 }
 
 .card {

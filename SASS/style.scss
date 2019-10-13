@@ -1,11 +1,11 @@
 @import "var";
-@import "./progress";
-//@import "components";
-//@import "mixins";
+@import "./charts";
+
 
 @font-face {
   font-family: "Elegant_Icons";
-  src: url(../fonts/elegant_font/ElegantIcons.eot),
+	src: 
+		url(../fonts/elegant_font/ElegantIcons.eot),
     url(../fonts/elegant_font/ElegantIcons.woff),
     url(../fonts/elegant_font/ElegantIcons.ttf),
     url(../fonts/elegant_font/ElegantIcons.svg);
@@ -55,18 +55,22 @@ html, body{
 		padding-left: 6px;
 		padding-right: 6px;
 		line-height: 2em;
-		//font-size: 1.03em;
+	}
+	.startDoing{
+		margin-top: 2em;
 	}
 }
 
 .navbar{
-	//padding-left: 20%;
-	//padding-right: 30%;	
 	.navButtonsItem{
 		font-size: 0.9em;
 		font-weight: bold;
-		color: #000;
-		margin-right: 1em;		
+		color: #606060 !important;
+		margin-right: 1em;	
+		&:hover {
+			background-color: $emerald !important;
+			color: white !important;
+			}	
 	}
 	.navButtonsItemActive{
 		background-color: $emerald;
@@ -80,13 +84,6 @@ html, body{
 	}
 }
 
-@media (max-width: 1400px) {
-	.navbar{
-		//padding-left: 10%;
-		//padding-right: 2%;
-	}
-}
-
 .offer{
 	.panelContentHeader{
 		margin-top: 2em;
@@ -96,7 +93,6 @@ html, body{
 		&:hover {
 			.icons {
 				background: $emerald;
-				// margin-bottom: 2.2rem;
 			}
 		}		
 	}
@@ -117,8 +113,6 @@ html, body{
 	.btn-outline-secondary{
 		&:hover {
 			background-color: $emerald !important;
-			//border-color: $textHoverColor !important;
-			//color: $borderHoverColor !important;
 		}
 	}
 	.aKey{
@@ -133,14 +127,12 @@ html, body{
 .tablets{
 	.media{
 		margin-top: 2.5em;
-		//margin-left: 25%;
     .icons {
       font-size: 2.5em;
       color: $emerald;
       text-align: center;
     }		
 	}
-
 }
 
 @media (max-width: 1400px) {
@@ -148,7 +140,7 @@ html, body{
 		.media{
 			margin-left: 7%;
 		}
-}
+	}
 }
 
 @media (max-width: 1200px) {
@@ -157,7 +149,7 @@ html, body{
 			margin-top: 1.2em;
 			margin-left: 0%;
 		}
-}
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -170,11 +162,9 @@ html, body{
 }
 
 .featuresList{
-	background-color: $bodyColor;
-	
+	background-color: $bodyColor;	
 	.row{
 		margin: 0 auto;
-		//width: 80%;
 		.media{
 			margin-top: 2.5em;
 			margin-bottom: 2.5em;
@@ -237,7 +227,6 @@ html, body{
 .skils{
 	.charts{
 		margin: 0 auto;
-		//width: 80%;
 	}
 	.chartMarginBottom{
 		margin-bottom: 2.5em;
@@ -514,11 +503,6 @@ html, body{
 			}
 		}
 	}
-
-	.carousel{
-
-	}
-
 }
 
 .contactDetails {
@@ -647,12 +631,9 @@ html, body{
 
 
 .prices{
-
-
 	.card {
 		border-radius: 5px;
 		margin-top: 0.5rem;
-		//overflow: hidden;
 		border: 1px solid $lightGrey;
 		align-items: center;
 
@@ -719,7 +700,6 @@ html, body{
 		padding-top: 5em;
 		padding-bottom: 5em;
 	}
-
   p {
     font-size: 2rem;
     font-weight: 700;
@@ -731,15 +711,16 @@ html, body{
     }
   }
   .btn-success {
-    font-size: 0.9rem;
-		padding: 0.7rem 1rem;
+		font-size: 0.85em;
+		font-weight: 700; 
+		text-transform: uppercase;
+		padding: 0.7em 1em;
 		background-color: $emerald;
 		border-color: $emerald;
-
     .icon {
-      margin-left: 0.5rem;
+      margin-left: 0.5em;
     }
-  }
+	}	
 }
 
 .links{
@@ -760,8 +741,74 @@ html, body{
 			color: white !important;
 		}
 	}
+}
 
+.map{
+	
+	.container-fluid{
+		padding: 0;
+		position: relative;
+	}
+	.contact{
+		width: 22em;
+		position: absolute;
+		top: 30px;
+		margin-left: 25%;
+	}
 
+  form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 1px solid $lightGrey;
+
+    input, textarea, input::placeholder, textarea::placeholder {
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+    input, input::placeholder {
+      padding: 1.5rem 0.7rem;
+      margin-bottom: 1rem;
+    }
+
+		.btn{
+			background-color: $emerald !important;
+			border-color: $emerald !important;
+			color: white !important;
+		
+			&:hover {
+				background-color: $darkText !important;
+				border-color: $darkText !important;
+				color: white !important;
+			}
+		}
+  }
+	iframe{  
+		height:500px;
+		width:100%;
+		position: relative;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.map{
+		.contact{
+			width: 100%;
+			margin-left: 0%;
+		}
+	}
+}
+
+footer{
+	.container-fluid{
+		background:#383838;
+		height: 10em;
+	}
+	p{
+		margin-top: auto;
+		margin-bottom: auto;
+		color: white;
+	}
 }
 
 .card {
@@ -841,7 +888,6 @@ html, body{
 
         span {
           display: inline-block;
-
           padding: 0.2rem;
           transform: rotate(-45deg);
         }
@@ -869,8 +915,6 @@ html, body{
 
 .customIcon{
 	margin-top: 10px;
-	//max-width:100%;
-	//height:100%;
 }
 
 .customIconBullets{
