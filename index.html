@@ -15,84 +15,122 @@
 </head>
 
 <body>
-	<header class="headerPart container-fluid bg-secondary">
-		<div class="row headerBackground">
-			<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-xs-12">
-				<div class="sloganCntainer text-center">
-					<div class="container-fluid">
-						<p>WHAT ARE YOU WAITING FOR?</p>
-						<h2 class="display-4 font-weight-bold">LET'S BE CREATIVE !</h2>
-						<p>
-							<div class="textBackground rounded text-light">
-								<span class="font-weight-bold text-light">
-									<span class="coloredText">S</span>tartuprr,</span> NEXT GENERATION & HIGHLY FLEXIBLE WORDPRESS
-								THEME</div>
-						</p>
-						<p><img src="images/greyArrowLeft.png" class="img-fluid" alt="===">
-							<span class="coloredText">START</span> DOING THAT<img src="images/greyArrowRight.png" class="img-fluid"
-								alt="==="></p>
-						<button class="btn btn-link"><img src="images/greyAccept.png" class="img-fluid" alt="Open"></button>
+	<header>
+		<div class="fillBackground">
+			<div class="headerPart container-fluid bg-secondary controledWidth">
+				<div class="row headerBackground">
+					<!--justify-content-center -->
+					<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-xs-12">
+						<div class="sloganCntainer text-center">
+							<div class="container-fluid">
+								<!-- <a href="#" class="icon text-primary">&#x52;</a>
+						<div class="icon">&#xe00e;</div> -->
+								<p>WHAT ARE YOU WAITING FOR?</p>
+								<h2 class="display-4 font-weight-bold">LET'S BE CREATIVE !</h2>
+
+								<div class="textBackground rounded text-light">
+									<span class="font-weight-bold text-light">
+										<span class="coloredText">S</span>tartuprr,</span> NEXT GENERATION & HIGHLY FLEXIBLE WORDPRESS
+									THEME</div>
+
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div>
+											<img src="images/greyArrowLeft.png" class="img-fluid" alt="===">
+										</div>
+										<div class=" col-auto">
+											<h5><span class="coloredText">START</span> DOING THAT</h5>
+										</div>
+										<div>
+											<img src="images/greyArrowRight.png" class="img-fluid" alt="===">
+										</div>
+									</div>
+								</div>
+
+
+								<button class="btn btn-link"><img src="images/greyAccept.png" class="img-fluid" alt="Open"></button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<nav class="navbar navbar-light navbar-expand-lg border-bottom bg-light">
+	<nav class="container-fluid navbar navbar-light navbar-expand-lg border-bottom bg-light controledWidth">
 		<a class="navbar-brand" href="#"><img src="images/startuprr.png" alt="brand-logo"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarButons"
-			aria-controls="navbarButons" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarButons" aria-controls="navbarButons" aria-expanded="false"
+			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarButons">
 			<ul class="navButtonsList navbar-nav ml-auto">
-				<a class="navButtonsItem text-dark nav-link" href="#">HOME</a>
-				<a class="navButtonsItem navButtonsItemActive text-light rounded nav-link" href="#">PORTFOLIO</a>
+				<li class="nav-item">
+					<a class="navButtonsItem text-dark nav-link" href="#">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a class="navButtonsItem navButtonsItemActive text-light rounded nav-link" href="#">PORTFOLIO</a>
+				</li>
+				<li class="nav-item"></li>
 				<a class="navButtonsItem text-dark nav-link" href="#">BLOG</a>
+				</li>
+				<li class="nav-item"></li>
 				<a class="navButtonsItem text-dark nav-link" href="#">PAGES</a>
+				</li>
+				<li class="nav-item"></li>
 				<a class="navButtonsItem text-dark nav-link" href="#">FEATURES</a>
+				</li>
+				<li class="nav-item"></li>
 				<a class="navButtonsItem text-dark nav-link" href="#">MEGA MENU</a>
+				</li>
+				<li class="nav-item"></li>
 				<a class="navButtonsItem text-dark nav-link" href="#">CONTACT</a>
+				</li>
+				<li class="nav-item"></li>
 				<button type="button" class="btn btn-link"><i class="fas fa-search fa-rotate-90"></i></button>
+				</li>
 			</ul>
 		</div>
 	</nav>
 
 	<section class="offer">
-		<div class="container-fluid bg-light">
-			<div class="row ">
-				<div class="col-12 customMargin">
-					<h2 class="text-center font-weight-bold"><img src="images/lightArrowLeft.png" class="img-fluid customIcon"
-							alt="===">WHAT
-						WE <span class="coloredText">OFFER</span><img src="images/lightArrowRight.png" class="img-fluid customIcon"
-							alt="===">
-					</h2>
-					<p class="text-center">We offer our customers the best services & sulutions, this is our main services list
-					</p>
+		<div class="container-fluid bg-light controledWidth">
+			<div class="row justify-content-center ">
+				<div class="col-4">
+					<img src="images/lightArrowLeft.png" class="customIcon img-fluid" alt="===">
 				</div>
+				<div class=" col-4">
+					<h2 class="text-center font-weight-bold">WHAT WE <span class="coloredText">OFFER</span></h2>
+				</div>
+				<div class="col-4">
+					<img src="images/lightArrowRight.png" class="customIcon img-fluid" alt="===">
+				</div>
+				<p class="text-center">We offer our customers the best services & sulutions, this is our main services list
+				</p>
+
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
 					<div class="jumbotron text-center">
-						<img src="images/offers1.png" class="img-fluid" alt="Offer One">
+						<div class="icons">&#xe00e;</div>
 						<h6 class="font-weight-bold panelContentHeader">RESPONSIVE & MULTIPURPOSE</h6>
 						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam. Donec efficitur viverra
 							arcu, ac cursus lectus tempor ut.</p>
 						<a class="btn btn-outline-secondary" href="#" role="button">READ MORE</a>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
 					<div class="jumbotron text-center">
-						<img src="images/offers2.png" class="img-fluid" alt="Offer Two">
+						<div class="icons corected">&#xe0f9;</div>
 						<h6 class="font-weight-bold panelContentHeader">EASY CUSTOMIZATION</h6>
 						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam. Donec efficitur viverra
 							arcu, ac cursus lectus tempor ut.</p>
-						<a class="btn btn-success" href="#" role="button">READ MORE</a>
+						<a class="btn btn-outline-secondary" href="#" role="button">READ MORE</a>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
 					<div class="jumbotron text-center">
-						<img src="images/offers3.png" class="img-fluid" alt="Offer Three">
+						<div class="icons">&#xe028;</div>
 						<h6 class="font-weight-bold panelContentHeader">AWESOME FRIENDLY SUPPORT</h6>
 						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam. Donec efficitur viverra
 							arcu, ac cursus lectus tempor ut.</p>
@@ -107,97 +145,415 @@
 	</section>
 
 	<section class="tablets">
-		<div class="container-fluid darBacground">
-			<div class="row">
-				<div class="col-12 customMargin">
-					<h2 class="text-center font-weight-bold text-light"><img src="images/darkBulletLeft.png"
-							class="img-fluid customIconBullets" alt="===">AMAZING <span class="coloredText">FEATURES</span><img
-							src="images/darkBulletRight.png" class="img-fluid customIconBullets" alt="==="></i></h2>
-					<p class="text-center text-muted">With unlimited features that we offer, we promise it's possible to make
-						everything that was impossible for you</p>
+		<div class="fillBackgroundDarker">
+			<div class="container-fluid darBacground controledWidth">
+				<div class="row">
+					<div class="col-12 customMargin">
+						<h2 class="text-center font-weight-bold text-light">
+							<img src="images/darkBulletLeft.png" class="img-fluid customIconBullets" alt="===">AMAZING <span class="coloredText">FEATURES</span>
+							<img src="images/darkBulletRight.png" class="img-fluid customIconBullets" alt="==="></i>
+						</h2>
+						<p class="text-center text-muted">With unlimited features that we offer, we promise it's possible to make
+							everything that was impossible for you</p>
+					</div>
 				</div>
-			</div>
-			<div class="row align-items-center justify-content-center">
-				<div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12">
 
-					<div class="media col-12 justify-content-center">
-						<img class="mr-3" src="Images/topFeature1.png" alt="1.">
-						<div class="media-body">
-							<h5 class="text-light">RESPONSIVE & MULTIPURPOSE</h5>
-							<p class="text-muted">Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+						<div class="media col-12 justify-content-center">
+							<div class="icons mr-3">&#xe00e;</div>
+							<div class="media-body">
+								<h5 class="text-light">RESPONSIVE & MULTIPURPOSE</h5>
+								<p class="text-muted">Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+							</div>
 						</div>
-					</div>
-					<div class="media col-12 justify-content-center">
-						<img class="mr-3" src="Images/topFeature2.png" alt="2.">
-						<div class="media-body">
-							<h5 class="text-light">EASY CUSTOMIZATION</h5>
-							<p class="text-muted">Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+						<div class="media col-12 justify-content-center">
+							<div class="icons mr-3">&#xe0f9;</div>
+							<div class="media-body">
+								<h5 class="text-light">EASY CUSTOMIZATION</h5>
+								<p class="text-muted">Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+							</div>
 						</div>
-					</div>
-					<div class="media col-12 justify-content-center">
-						<img class="mr-3" src="Images/topFeature3.png" alt="3.">
-						<div class="media-body">
-							<h5 class="text-light">UNLIMITED FEATURES</h5>
-							<p class="text-muted">Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+						<div class="media col-12 justify-content-center">
+							<div class="icons mr-3">&#xe033;</div>
+							<div class="media-body">
+								<h5 class="text-light">UNLIMITED FEATURES</h5>
+								<p class="text-muted">Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+							</div>
 						</div>
-					</div>
 
-				</div>
-				<div class="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-					<img src="Images/tablets.png" class="img-fluid" alt="Optimized for Mobile">
+					</div>
+					<div class="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+						<img src="Images/tablets.png" class="img-fluid" alt="Optimized for Mobile">
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="featuresList">
-		<div class="row">
-			<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-				<img class="mr-3" src="Images/feature1.png" alt="1.">
-				<div class="media-body">
-					<h5 class="mt-0">RESPONSIVE & MULTIPURPOSE</h5>
-					<p class="text-muted">Desktops, Tablets & Phones</p>
-					<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+		<div class="container-fluid controledWidth">
+			<div class="row">
+				<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="icons mr-3">&#xe00e;</div>
+					<div class="media-body">
+						<h5 class="mt-0">RESPONSIVE & MULTIPURPOSE</h5>
+						<p class="text-muted">Desktops, Tablets & Phones</p>
+						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+					</div>
+				</div>
+				<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="icons mr-3">&#xe0f9;</div>
+					<div class="media-body">
+						<h5 class="mt-0">EASY CUSTOMIZATION</h5>
+						<p class="text-muted">One Click Demo Content Installation</p>
+						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+					</div>
+				</div>
+				<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="icons mr-3">&#xe033;</div>
+					<div class="media-body">
+						<h5 class="mt-0">UNLIMITED FEATURES</h5>
+						<p class="text-muted">Shortcodes, Typography & Different Layouts</p>
+						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+					</div>
+				</div>
+				<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="icons mr-3">&#xe056;</div>
+					<div class="media-body">
+						<h5 class="mt-0">CLEAN & AND MODULAR CODING</h5>
+						<p class="text-muted">100% Clean, Valid & Well-Commented Coding</p>
+						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+					</div>
+				</div>
+				<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="icons mr-3">&#xe07a;</div>
+					<div class="media-body">
+						<h5 class="mt-0">THE BEST E-COMMERCE SOLUTIONS</h5>
+						<p class="text-muted">WooCommerce Fully Integration</p>
+						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+					</div>
+				</div>
+				<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="icons mr-3">&#xe028;</div>
+					<div class="media-body">
+						<h5 class="mt-0">AWESOME FRIENDLY SUPPORT</h5>
+						<p class="text-muted">Free Lifetime Support & Updates</p>
+						<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+					</div>
 				</div>
 			</div>
-			<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-				<img class="mr-3" src="Images/feature2.png" alt="2.">
-				<div class="media-body">
-					<h5 class="mt-0">EASY CUSTOMIZATION</h5>
-					<p class="text-muted">One Click Demo Content Installation</p>
-					<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+			<div class="aLuggage">
+				<img src="Images/aLuggage.png">
+			</div>
+		</div>
+	</section>
+
+	<section class="skils">
+		<div class="fillBackgroundDarker">
+			<div class="container-fluid darBacground controledWidth">
+				<div class="row">
+					<div class="col-12 customMargin">
+						<h2 class="text-center font-weight-bold text-light"><img src="images/darkBulletLeft.png" class="img-fluid customIconBullets" alt="===">OUR POWERFUL
+							<span class="coloredText">SKILLS</span><img src="images/darkBulletRight.png" class="img-fluid customIconBullets" alt="===">
+						</h2>
+						<p class="text-center text-muted">We’re good and experienced at different things and areas and we promise
+							about qulity of our works</p>
+					</div>
+					<div class="col-12 chartMarginBottom">
+					</div>
+				</div>
+
+				<div class="row justify-content-between charts">
+					<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
+						<div class="progress mx-auto" data-value="75">
+							<span class="progress-left">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">
+									75<span class="h5">%</span>
+								</div>
+							</div>
+						</div>
+						<p class="text-muted font-weight-bold">WEB DESIGN</p>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
+						<div class="progress mx-auto" data-value="92">
+							<span class="progress-left">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">
+									92<span class="h5">%</span>
+								</div>
+							</div>
+						</div>
+						<p class="text-muted font-weight-bold">WEB DEVELOPMENT</p>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
+						<div class="progress mx-auto" data-value="68">
+							<span class="progress-left">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">
+									68<span class="h5">%</span>
+								</div>
+							</div>
+						</div>
+						<p class="text-muted font-weight-bold">SPEED OPTIMIZATION</p>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
+						<div class="progress mx-auto" data-value="100">
+							<span class="progress-left">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">
+									100<span class="h5">%</span>
+								</div>
+							</div>
+						</div>
+						<p class="text-muted font-weight-bold">CUSTOMER SUPPORT</p>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
+						<div class="progress mx-auto" data-value="83">
+							<span class="progress-left">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">
+									83<span class="h5">%</span>
+								</div>
+							</div>
+						</div>
+						<p class="text-muted font-weight-bold">MARKETING</p>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
+						<div class="progress mx-auto" data-value="50">
+							<span class="progress-left">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar barColor"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">
+									50<span class="h5">%</span>
+								</div>
+							</div>
+						</div>
+						<p class="text-muted font-weight-bold">ADVERTISEMENT</p>
+					</div>
+					<div class="col-12 chartMarginBottom">
+					</div>
 				</div>
 			</div>
-			<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-				<img class="mr-3" src="Images/feature3.png" alt="3.">
-				<div class="media-body">
-					<h5 class="mt-0">UNLIMITED FEATURES</h5>
-					<p class="text-muted">Shortcodes, Typography & Different Layouts</p>
-					<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+		</div>
+	</section>
+
+	<section class="samples">
+		<div class="container-fluid bg-light">
+			<div class="controledWidth container-fluid col-12 customMargin">
+				<div class="row justify-content-center">
+
+					<div class="col-4">
+						<img src="images/lightArrowLeft.png" class="customIcon img-fluid" alt="===">
+					</div>
+					<div class=" col-4">
+						<h2 class="text-center font-weight-bold">SAMPLE <span class="coloredText">WORKS</span></h2>
+					</div>
+					<div class="col-4">
+						<img src="images/lightArrowRight.png" class="customIcon img-fluid" alt="===">
+					</div>
+
+					<div>
+						<p class="text-center">Let’s take a look at some of the best of our works here, we love them and hope you too
+						</p>
+					</div>
+					<div class="col-12 customMarginBottom">
+					</div>
 				</div>
 			</div>
-			<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-				<img class="mr-3" src="Images/feature4.png" alt="4.">
-				<div class="media-body">
-					<h5 class="mt-0">CLEAN & AND MODULAR CODING</h5>
-					<p class="text-muted">100% Clean, Valid & Well-Commented Coding</p>
-					<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+
+
+			<div class="row">
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-				<img class="mr-3" src="Images/feature5.png" alt="5.">
-				<div class="media-body">
-					<h5 class="mt-0">THE BEST E-COMMERCE SOLUTIONS</h5>
-					<p class="text-muted">WooCommerce Fully Integration</p>
-					<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="media col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-				<img class="mr-3" src="Images/feature6.png" alt="6.">
-				<div class="media-body">
-					<h5 class="mt-0">AWESOME FRIENDLY SUPPORT</h5>
-					<p class="text-muted">Free Lifetime Support & Updates</p>
-					<p>Nulla facilisi. In felis elit, suscipit a felis quis, efficitur cursus diam.</p>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+					<div class="aSample">
+						<div class="aSampleActive">
+							<div class="container-fluid text-center">
+								<a href="#" class="icons"><span>&#xe02b;</span></a>
+								<a href="#" class="icons"><span>&#x55;</span></a>
+								<h4>Corporate Brochure</h4>
+								<p>Illustration / Print</p>
+								<p><span class="icons">&#xe089;</span> 138</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="controledWidth container-fluid col-12">
+					<div class="row col-12 customMarginBottom justify-content-center">
+						<a class="btn btn-success aCustomButton col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" href="#" role="button">VIEW ALL WORKS</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -206,157 +562,569 @@
 		</div>
 	</section>
 
-	<section class="skils">
-		<div class="container-fluid darBacground ">
-			<div class="row">
-				<div class="col-12 customMargin">
-					<h2 class="text-center font-weight-bold text-light"><img src="images/darkBulletLeft.png"
-							class="img-fluid customIconBullets" alt="===">OUR POWERFUL
-						<span class="coloredText">SKILLS</span><img src="images/darkBulletRight.png"
-							class="img-fluid customIconBullets" alt="===">
-					</h2>
-					<p class="text-center text-muted">We’re good and experienced at different things and areas and we promise
-						about qulity of our works</p>
+	<section class="facts">
+		<div class="fillBackgroundDarker">
+			<div class="container-fluid darBacground controledWidth">
+				<div class="row">
+					<div class="col-12 customMargin">
+						<h2 class="text-center font-weight-bold text-light"><img src="images/darkBulletLeft.png" class="img-fluid customIconBullets" alt="===">COMPANY
+							<span class="coloredText">FACTS</span><img src="images/darkBulletRight.png" class="img-fluid customIconBullets" alt="===">
+						</h2>
+						<p class="text-center text-muted">We do love to work and increase our counter numbers, this is what we’ve done till now</p>
+					</div>
+					<div class="col-12 chartMarginBottom">
+					</div>
 				</div>
-				<div class="col-12 chartMarginBottom">
+
+				<div class="row justify-content-between">
+					<div class="aFact col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center">
+						<p class="count">218</p>
+						<p class="icons">&#x5a;</p>
+						<p class="text-muted font-weight-bold">COMPLETED PROJECTS</p>
+					</div>
+					<div class="aFact col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center">
+						<p class="count">360</p>
+						<p class="icons">&#xe0e1;</p>
+						<p class="text-muted font-weight-bold">HOURS OF WORK <span class="font-weight-bold small">/ MONTH</span></p>
+					</div>
+					<div class="aFact col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center">
+						<p class="count">135</p>
+						<p class="icons">&#xe07c;</p>
+						<p class="text-muted font-weight-bold">COMPLETED PROJECTS</p>
+					</div>
+					<div class="aFact col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center">
+						<p class="count">174</p>
+						<p class="icons">&#xe0dd;</p>
+						<p class="text-muted font-weight-bold">COMPLETED PROJECTS</p>
+					</div>
+					<div class="col-12 chartMarginBottom">
+					</div>
 				</div>
 			</div>
-
-			<div class="row justify-content-between charts">
-				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
-					<img src="images/chart1.png" class="img-fluid" alt="75%">
-					<p class="text-muted font-weight-bold">WEB DESIGN</p>
-				</div>
-				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
-					<img src="images/chart2.png" class="img-fluid" alt="92%">
-					<p class="text-muted font-weight-bold">WEB DEVELOPMENT</p>
-				</div>
-				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
-					<img src="images/chart3.png" class="img-fluid" alt="68%">
-					<p class="text-muted font-weight-bold">SPEED OPTIMIZATION</p>
-				</div>
-				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
-					<img src="images/chart4.png" class="img-fluid" alt="100%">
-					<p class="text-muted font-weight-bold">CUSTOMER SUPPORT</p>
-				</div>
-				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
-					<img src="images/chart5.png" class="img-fluid" alt="83%">
-					<p class="text-muted font-weight-bold">MARKETING</p>
-				</div>
-				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
-					<img src="images/chart6.png" class="img-fluid" alt="50%">
-					<p class="text-muted font-weight-bold">ADVERTISEMENT</p>
-				</div>
-				<div class="col-12 chartMarginBottom">
+		</div>
+		<div class="purchace text-white">
+			<div class="container controledWidth">
+				<div class="row">
+					<div class="aText col-xl-8 col-lg-8 col-md-10 col-sm-12 col-xs-12 text-left">
+						<p>Are you satisfied with unlimited features thar we offer?</p>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-xs-6 text-center">
+						<a href="#" class="btn btn-light ml-auto">Purchase it now</a>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-xs-6 text-center">
+						<a href="#" class="btn btn-light">Contact us now</a>
+						<div class="endline">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="samples">
-		<div class="container-fluid bg-light">
+	<section class="team">
+
+		<div class="container-fluid controledWidth">
 			<div class="row">
 				<div class="col-12 customMargin">
-					<h2 class="text-center font-weight-bold"><img src="images/lightArrowLeft.png" class="img-fluid customIcon"
-							alt="===">SAMPLE<span class="coloredText"> WORKS</span><img src="images/lightArrowRight.png"
-							class="img-fluid customIcon" alt="===">
-					</h2>
-					<p class="text-center">Let’s take a look at some of the best of our works here, we love them and hope you too
-					</p>
+					<div class="gallery-arrows col-1 icons caruselArrows" role="button" data-slide="prev" href="#carouselExampleControls">
+						&#x44;
+					</div>
+					<div class="col-auto">
+						<h2 class="text-center font-weight-bold"><img src="images/darkBulletLeft.png" class="img-fluid customIconBullets" alt="===">COMPANY
+							<span class="coloredText">WORKS</span><img src="images/darkBulletRight.png" class="img-fluid customIconBullets" alt="===">
+						</h2>
+					</div>
+					<div class="gallery-arrows col-1 icons caruselArrows" role="button" data-slide="next" href="#carouselExampleControls">
+						&#x45;
+					</div>
+					<p class="text-center text-muted">We’re some creative people with powerful knowledge & awesome skills behind the scene bringing you the bests</p>
 				</div>
 				<div class="col-12 customMarginBottom">
 				</div>
 			</div>
-
-
-			<div class="row">
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample aSampleActive text-center">
-						<img src="images/samplesIcon.png" class="img-fluid customMargin" alt="===">
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="aSmallGap col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<div class="aSample">
-
-					</div>
-				</div>
-				<div class="row col-12 customMarginBottom justify-content-center">
-					<a class="btn btn-success aCustomButton col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12" href="#"
-						role="button">READ MORE</a>
-				</div>
-			</div>
-
 		</div>
 
 
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
 
+					<div class="container-fluid controledWidth">
+						<div class="row">
+							<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="card">
+									<div class="image-container ">
+										<img src="./images/gallery-image.png" alt="Image" class="image image-fluid" />
+										<div class="overlay">
+											<div class="content">
+												<a href="#" class="icons"><span>&#xe093;</span></a>
+												<a href="#" class="icons"><span>&#xe094;</span></a>
+												<a href="#" class="icons"><span>&#xe096;</span></a>
+												<a href="#" class="icons"><span>&#xe09c;</span></a>
+												<a href="#" class="icons"><span>&#xe09b;</span></a>
+											</div>
+										</div>
+									</div>
+									<div class="card-header">
+										<p>Alexis Simpson</p>
+									</div>
+									<div class="card-body">
+										<p class="card-text">CEO & Developer</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="card-link"><span class="icons">&#xe076;</span>a.simpson@unique.com
+										</a>
+										<a href="#" class="card-link"><span class="icons">&#xe090;</span>+1 911 (77) 222-1111</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="card">
+									<div class="image-container ">
+										<img src="./images/gallery-image.png" alt="Image" class="image image-fluid" />
+										<div class="overlay">
+											<div class="content">
+												<a href="#" class="icons"><span>&#xe093;</span></a>
+												<a href="#" class="icons"><span>&#xe094;</span></a>
+												<a href="#" class="icons"><span>&#xe096;</span></a>
+												<a href="#" class="icons"><span>&#xe09c;</span></a>
+												<a href="#" class="icons"><span>&#xe09b;</span></a>
+											</div>
+										</div>
+									</div>
+									<div class="card-header">
+										<p>Steven Cole</p>
+									</div>
+									<div class="card-body">
+										<p class="card-text">User Interface Designer</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="card-link"><span class="icons">&#xe076;</span>s.cole@unique.com
+										</a>
+										<a href="#" class="card-link"><span class="icons">&#xe090;</span>+1 911 (77) 222-1111</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="card">
+									<div class="image-container ">
+										<img src="./images/gallery-image.png" alt="Image" class="image image-fluid" />
+										<div class="overlay">
+											<div class="content">
+												<a href="#" class="icons"><span>&#xe093;</span></a>
+												<a href="#" class="icons"><span>&#xe094;</span></a>
+												<a href="#" class="icons"><span>&#xe096;</span></a>
+												<a href="#" class="icons"><span>&#xe09c;</span></a>
+												<a href="#" class="icons"><span>&#xe09b;</span></a>
+											</div>
+										</div>
+									</div>
+									<div class="card-header">
+										<p>Frank Piener</p>
+									</div>
+									<div class="card-body">
+										<p class="card-text">Sales Manager</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="card-link"><span class="icons">&#xe076;</span>f.piener@unique.com
+										</a>
+										<a href="#" class="card-link"><span class="icons">&#xe090;</span>+1 911 (77) 222-1111</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="card">
+									<div class="image-container ">
+										<img src="./images/gallery-image.png" alt="Image" class="image image-fluid" />
+										<div class="overlay">
+											<div class="content">
+												<a href="#" class="icons"><span>&#xe093;</span></a>
+												<a href="#" class="icons"><span>&#xe094;</span></a>
+												<a href="#" class="icons"><span>&#xe096;</span></a>
+												<a href="#" class="icons"><span>&#xe09c;</span></a>
+												<a href="#" class="icons"><span>&#xe09b;</span></a>
+											</div>
+										</div>
+									</div>
+									<div class="card-header">
+										<p>Ashley Lennon</p>
+									</div>
+									<div class="card-body">
+										<p class="card-text">IT Specialist</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="card-link"><span class="icons">&#xe076;</span>a.lennon@unique.com
+										</a>
+										<a href="#" class="card-link"><span class="icons">&#xe090;</span>+1 911 (77) 222-1111</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="carousel-item">
+					<div class="container-fluid controledWidth">
+						<div class="row">
+							<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="card">
+									<div class="image-container ">
+										<img src="./images/gallery-image.png" alt="Image" class="image image-fluid" />
+										<div class="overlay">
+											<div class="content">
+												<a href="#" class="icons"><span>&#xe093;</span></a>
+												<a href="#" class="icons"><span>&#xe094;</span></a>
+												<a href="#" class="icons"><span>&#xe096;</span></a>
+												<a href="#" class="icons"><span>&#xe09c;</span></a>
+												<a href="#" class="icons"><span>&#xe09b;</span></a>
+											</div>
+										</div>
+									</div>
+									<div class="card-header">
+										<p>Mr. Blue</p>
+									</div>
+									<div class="card-body">
+										<p class="card-text">User Interface Designer</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="card-link"><span class="icons">&#xe076;</span>mr.blue@unique.com
+										</a>
+										<a href="#" class="card-link"><span class="icons">&#xe090;</span>+1 911 (77) 222-1111</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="customMargin"></div>
+		<div class="aLuggage">
+			<img src="Images/quote.png">
+		</div>
 	</section>
 
+	<section class="contactDetails">
+		<div id="carouselContactControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="aBackground">
+						<div class="container controledWidth">
+							<div class="text-center">
+								<div class="col-3 contact text-white text-center">
+									<p class="aFirst">Alexis Simpson </p>
+									<p class="aSecond">- CEO & Developer</p>
+								</div>
+								<div class="aQuote">
+									<p>Lorem ipsum dolor sit amet, laudantium, totam rem. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo
+										consequat
+										magna, id molestie ipsum volutpat quis.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="aBackground">
+						<div class="container controledWidth">
+							<div class="text-center">
+								<div class="col-3 contact text-white text-center">
+									<p class="aFirst">Steven Cole</p>
+									<p class="aSecond">- UI Designer</p>
+								</div>
+								<div class="aQuote">
+									<p>Lorem ipsum dolor sit amet, laudantium, totam rem. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo
+										consequat
+										magna, id molestie ipsum volutpat quis.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="aBackground">
+						<div class="container controledWidth">
+							<div class="text-center">
+								<div class="col-3 contact text-white text-center">
+									<p class="aFirst">Frank Piener</p>
+									<p class="aSecond">- Sales Manager</p>
+								</div>
+								<div class="aQuote">
+									<p>Lorem ipsum dolor sit amet, laudantium, totam rem. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo
+										consequat
+										magna, id molestie ipsum volutpat quis.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 text-center aBackground">
+			<div class="gallery-arrows icons caruselArrows" role="button" data-slide="prev" href="#carouselContactControls">
+				&#x44;
+			</div>
+			<div class="gallery-arrows icons caruselArrows" role="button" data-slide="prev" href="#carouselContactControls">
+				&#x45;
+			</div>
+		</div>
+	</section>
+
+	<section class="clients">
+
+		<div id="carouselClientsControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="aBackground">
+						<div class="container-fluid controledWidth">
+							<div class="row justify-content-center">
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/1.png" alt=""></div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/2.png" alt=""></div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/3.png" alt=""></div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/4.png" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="aBackground">
+						<div class="container-fluid controledWidth">
+							<div class="row justify-content-center">
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/1.png" alt=""></div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/2.png" alt=""></div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/3.png" alt=""></div>
+								</div>
+								<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+									<div class="logo"><img src="./images/clients/4.png" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-12 text-center aBackground">
+			<div class="icons caruselArrows" role="button" data-slide="prev" href="#carouselClientsControls">
+				&#x44;
+			</div>
+			<div class="icons caruselArrows" role="button" data-slide="next" href="#carouselClientsControls">
+				&#x45;
+			</div>
+		</div>
+	</section>
+
+	<section class="prices">
+		<div class="container-fluid controledWidth">
+			<div class="row">
+				<div class="col-12 customMargin">
+					<div class="col-auto">
+						<h2 class="text-center font-weight-bold"><img src="images/darkBulletLeft.png" class="img-fluid customIconBullets" alt="===">REAL CHEAP
+							<span class="coloredText">PRICES</span><img src="images/darkBulletRight.png" class="img-fluid customIconBullets" alt="===">
+						</h2>
+					</div>
+					<p class="text-center text-muted">We offer all our services in real low prices in comparison with similar companies</p>
+				</div>
+				<div class="col-12 customMarginBottom">
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid controledWidth">
+			<div class="row">
+
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="card">
+						<div class="card-header">
+							<p>Standart plan</p>
+						</div>
+						<div class="card-body text-center">
+							<h2>$ 19.99 Monthly</h2>
+							<p class="card-text">5 Projects</p>
+							<p class="card-text">5 GB Storage</p>
+							<p class="card-text">Unlimited Users</p>
+							<p class="card-text">10 GB Bandwith</p>
+							<p class="card-text">Enhanced Security</p>
+						</div>
+						<div class="card-footer">
+							<p>SING UP NOW</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="card">
+						<div class="card-header">
+							<p>Premium plan</p>
+						</div>
+						<div class="card-body text-center">
+							<h2>$ 29.99 Monthly</h2>
+							<p class="card-text">10 Projects</p>
+							<p class="card-text">15 GB Storage</p>
+							<p class="card-text">Unlimited Users</p>
+							<p class="card-text">20 GB Bandwith</p>
+							<p class="card-text">Enhanced Security</p>
+						</div>
+						<div class="card-footer">
+							<p>SING UP NOW</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="card">
+						<div class="card-header">
+							<p>Advanced plan</p>
+						</div>
+						<div class="card-body text-center">
+							<h2>$ 49.99 Monthly</h2>
+							<p class="card-text">15 Projects</p>
+							<p class="card-text">30 GB Storage</p>
+							<p class="card-text">Unlimited Users</p>
+							<p class="card-text">50 GB Bandwith</p>
+							<p class="card-text">Enhanced Security</p>
+						</div>
+						<div class="card-footer">
+							<p>SING UP NOW</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="card">
+						<div class="card-header">
+							<p>Ultimate plan</p>
+						</div>
+						<div class="card-body text-center">
+							<h2>$ 99.99 Monthly</h2>
+							<p class="card-text">Unlimited Projects</p>
+							<p class="card-text">Unlimited Storage</p>
+							<p class="card-text">Unlimited Users</p>
+							<p class="card-text">Unlimited Bandwith</p>
+							<p class="card-text">Enhanced Security</p>
+						</div>
+						<div class="card-footer">
+							<p>SING UP NOW</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-12 customMarginBottom"></div>
+		</div>
+		<!-- 
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="controledWidth darBacground">
+				<div class="col-8">
+					<p>UNIQUE! We Do<span class="icons">&#xe089;</span>It And Hope You Too</p>
+				</div>
+				<div class="col-4">
+					<button type="button" class="btn btn-light">PURCHASE NOW</button>
+				</div>
+				</div>
+			</div> -->
+	</section>
+
+	<section class="unique text-dark">
+		<div class="aBackground">
+			<div class="container-fluid controledWidth">
+				<div class="row">
+					<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+						<p>UNIQUE! We Do<span class="icons">&#xe089;</span>It And Hope You Too</p>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<a href="#" class="btn btn-success ">Purchase it now <span class="icons">&#xe07a;</span> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="links">
+		<div class="container-fluid darBacground">
+			<div class="row  text-center justify-content-center">
+				<img class="customMargin" src="Images/startuper_dark.png">
+			</div>
+			<div class="row text-center justify-content-center">
+				<div class="col-12 customMargin customMarginBottom">
+					<a href="#" class="icons btn btn-primary">&#xe093;</a>
+					<a href="#" class="icons btn btn-primary">&#xe094;</a>
+					<a href="#" class="icons btn btn-primary">&#xe095;</a>
+					<a href="#" class="icons btn btn-primary">&#xe09e;</a>
+					<a href="#" class="icons btn btn-primary">&#xe09c;</a>
+					<a href="#" class="icons btn btn-primary">&#xe0a3;</a>
+					<a href="#" class="icons btn btn-primary">&#xe09d;</a>
+					<a href="#" class="icons btn btn-primary">&#xe09b;</a>
+					<a href="#" class="icons btn btn-primary">&#xe09f;</a>
+					<a href="#" class="icons btn btn-primary">&#xe0a4;</a>
+					<a href="#" class="icons btn btn-primary">&#xe098;</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
+
+	<script>
+		$(function () {
+			$(".progress").each(function () {
+				var value = $(this).attr("data-value");
+				var left = $(this).find(".progress-left .progress-bar");
+				var right = $(this).find(".progress-right .progress-bar");
+
+				if (value > 0) {
+					if (value <= 50) {
+						right.css(
+							"transform",
+							"rotate(" + percentageToDegrees(value) + "deg)"
+						);
+					} else {
+						right.css("transform", "rotate(180deg)");
+						left.css(
+							"transform",
+							"rotate(" + percentageToDegrees(value - 50) + "deg)"
+						);
+					}
+				}
+			});
+
+			function percentageToDegrees(percentage) {
+				return (percentage / 100) * 360;
+			}
+		});
+	</script>
 </body>
 
 </html>
